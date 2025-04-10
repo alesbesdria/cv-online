@@ -1,28 +1,37 @@
-import Image1 from "../assets/pokexplorer.png";
-import Image2 from "../assets/squide_game.png";
-import Image3 from "../assets/relax.png";
+import Image1 from "../assets/wildnews.png";
+import Image2 from "../assets/puzzen.png";
+import Image3 from "../assets/mingo.png";
+import Image4 from "../assets/sitezen.png";
 export const Objets = [
   {
     id: 1,
-    titre: "squide game",
+    titre: "Puzzen",
     image: Image2,
-    url: "https://taketomi001.github.io/squid_game/",
-    description: "Trouver la carte pour participer au jeu squide game en vanilla.",
+    url: "#",
+    description: "Hackaton 32h: Détendez-vous en jouant à ce jeu de recherche et de puzzle.",
   },
   {
     id: 2,
-    titre: "Pokéxplorer",
+    titre: "Wild New's",
     image: Image1,
-    url: "https://wildcodeschool.github.io/2024-12-orleans-cda-project2-team-c/",
+    url: "https://wildcodeschool.github.io/2024-12-orleans-cda-project2-team-b/",
     description:
-      "Ce projet a été réalisé en groupe dans le cadre d'une formation sur React. ",
+      "Projet de groupe API ou je me suis occupée principalement des fonctions et moins du choix de l'interface.",
   },
   {
     id: 3,
-    titre: "Relax",
+    titre: "Mingo",
     image: Image3,
-    url: "https://chloeseclier.github.io/Hackathon2025-TEC/",
+    url: "#",
     description:
-      "Projet de 32h en groupe, dans le but d'un Hackathon sur React.",
+      "Dernier Projet CDA Frontend-Backend en React/Express. Un réseau social basé sur le thème Sciences et culture.",
+  },
+  {
+    id: 3,
+    titre: "Stéphanie Chantôme",
+    image: Image4,
+    url: "#",
+    description:
+      "Sité réalisé en formation DWWM Frontend-Backend en PHP. Site: Formations Bien-Être Stéphanie Chantôme.",
   },
 ];
