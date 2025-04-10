@@ -1,36 +1,28 @@
 export default function AboutMe() {
   return (
     <>
-      <h2>A propos de moi</h2>
+      <h2>À propos de moi</h2>
       <div className="content">
-        <p>
-          Bonjour ou bonsoir, tout dépend de l'heure à laquel vous consulter ce
-          portfolio.
-        </p>
-        <p>
-          Je suis M.DYKHOUNPHYPHETH Charles-Eric, un jeune développeur web
-          passionné et déterminé, en quête constante de nouvelles expériences et
-          de défis stimulants.
-        </p>
-        <p>
-          Mon aventure dans le monde du développement web a débuté lorsque j'ai
-          décidé de revenir dans ma région d'origine. C'est à ce moment-là
-          qu'une rencontre déterminante a marqué mon parcours : une personne de
-          mon entourage, elle-même experte en développement web, a eu la
-          générosité et la bienveillance de m'initier à cet univers fascinant.
-          Depuis, le code est devenu non seulement une compétence
-          professionnelle, mais une véritable passion qui m'accompagne dans
-          toutes mes créations numériques.
-        </p>
-        <p>
-          Actuellement en formation pour obtenir le diplôme de Concepteur et
-          Développeur d'Applications, je suis activement à la recherche d'un
-          stage enrichissant, débutant le 23 juin 2025 et se poursuivant
-          jusqu'au 2 septembre 2025. Ce stage représente pour moi une
-          opportunité précieuse de mettre en pratique mes compétences tout en
-          continuant à apprendre et à relever de nouveaux défis dans le domaine
-          du développement web et des applications.
-        </p>
+      <p>
+Je suis actuellement à la recherche d’un stage en développement informatique, qui me permette de découvrir de nouvelles technologies, d’approfondir mes compétences, et de m’épanouir dans un environnement dynamique et formateur. Je souhaite participer à des projets concrets, apprendre au contact de personnes passionnées, et continuer à évoluer autant sur le plan technique que personnel.
+</p>
+
+<p>
+Mon parcours professionnel a d’abord pris racine dans le commerce et l’événementiel, des domaines dans lesquels j’ai acquis des compétences solides en communication, en relation client et en organisation. Ces expériences m’ont appris à être réactive, à gérer les imprévus avec calme, diplomatie, et à toujours garder une approche centrée sur les solutions. Elles m’ont aussi permis de développer un véritable esprit d’équipe et une capacité d’écoute que je considère aujourd’hui comme une réelle force.
+</p>
+
+<p>
+Mon environnement familial a toujours été orienté vers l’informatique et les nouvelles technologies depuis toute petite. C’est en découvrant l’école 42 que j’ai découvert ma passion pour ce domaine. L’informatique m’a immédiatement captivée grâce à son exigence, sa logique et son côté créatif. Cet univers, déjà en partie le mien, est rapidement devenu une véritable révélation. J’éprouve un véritable enthousiasme pour la compréhension et l’apprentissage. J’aime voir mes compétences se développer au fil de projets variés et stimulants, ce qui renforce ma passion pour ce domaine.
+</p>
+
+<p>
+De nature calme, curieuse et impliquée, je fais preuve d’une grande détermination dans l’acquisition de nouvelles connaissances. J’accorde une grande importance à la sérénité, à la précision et à un cadre de travail structuré. Ces qualités me permettent de rester concentrée, organisée et toujours orientée vers l’atteinte de mes objectifs dans une ambiance vivante et bienveillante.
+</p>
+
+<p>
+En dehors du code, je suis également très intéressée par l’univers asiatique, les sciences, et plus particulièrement l’astronomie, que j’ai pu découvrir très jeune avec émerveillement.
+</p>
+
       </div>
     </>
   );

@@ -4,15 +4,17 @@ export default function Xp() {
     <><section>
       <h2>Expériences professionnelles</h2>
       <div className="listXp">
-        <p>2024 : Stagaire développeur web - restaurant Chez Tang</p>
-        <p>2023 : Cariste chez astr'in </p>
-        <p>2022 à 2023 : Aide soignant – Petits Fils</p>
-        <p>2021 à 2022 : Agent polyvalent – M2LOG </p>
-        <p>2018 à 2019 : Auxipliaire de vie – auxi'life45</p>
-        <p>2018 : Intérimaire – Deret </p>
+        <p>2024 : Stagiaire développeur web - Stéphanie Chantôme, Orléans.</p>
+        <p>2017 : Début de création d&apos;entreprise - Krystal.Art, Colmar.</p>
+        <p>2016 : Vendeuse bijouterie - Julien d&apos;Orcel, Strasbourg.</p>
+        <p>2014 : Responsable magasin - Temple d&apos;Or, Orléans. </p>
+        <p>2013 : Commerciale - Home Salons, Orléans.</p>
+        <p>2012 : Réceptionniste - Novotel, Orléans.</p>
+        <p>2011 - 2012 : Organisatrice d&apos;évènements - Émilie B. Évènements, Saint Julien de Chédon. </p>
+        <p>2011 : Organisatrice d&apos;évènements - A.R.T.S, La Chapelle Vicomtesse. </p>
+        <p>2008 - 2012 : Vendeuse bijouterie dans différentes entreprises: Bijouterie Michel, Julien d&apos;Orcel, Easy Cash, Jean Delatour - Orléans.  </p>
         <p>
-          2014 à 2018 : Agent hospitalier faisant fonction d'aide soignant – CHR
-          d'Orléans
+          2007 : Réceptionniste au Domaine des Portes de Sologne, Hôtel**** - Ardon.
         </p>
       </div>
       </section>

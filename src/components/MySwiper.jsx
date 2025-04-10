@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HTML from "../assets/html.png"
 import CSS from "../assets/css.png"
@@ -8,6 +7,13 @@ import PHP from "../assets/php.png"
 import SQL from "../assets/sql.png"
 import JAVA from "../assets/java.png"
 import ANGULAR from "../assets/angular.png"
+
+import TYPESCRIPT from "../assets/typescript.png"
+import C from "../assets/c.png"
+import BOOTSTRAP from "../assets/bootstrap.png"
+import TAILWIND from "../assets/tailwind.png"
+import NODEJS from "../assets/nodejs.png"
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -29,6 +35,11 @@ export default function MySwiper() {
         <SwiperSlide><img src={SQL} alt="" /></SwiperSlide>
         <SwiperSlide><img src={JAVA} alt="" /></SwiperSlide>
         <SwiperSlide><img src={ANGULAR} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={TYPESCRIPT} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={C} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={BOOTSTRAP} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={NODEJS} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={TAILWIND} alt="" /></SwiperSlide>
         
       </Swiper>
     </>

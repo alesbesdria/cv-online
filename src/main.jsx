@@ -1,9 +1,11 @@
-import App from "./App.jsx";
-import React from "react";
-import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+import ReactDOM from "react-dom/client";
+import React from "react";
+
+import App from "./App.jsx";
 import Home from "./page/Home";
-import Error404 from "./page/error404";
+import PageNotFound from "./page/pagenotfound.jsx";
 import Contact from "./page/contact";
 import Portfolio from "./page/porfolio";
 import Cv from "./page/cv.jsx";
@@ -18,20 +20,20 @@ const router = createBrowserRouter(
           element: <Home />,
         },
         {
-          path: "/cv", // Changed to use a hyphen
+          path: "/cv", 
           element: <Cv />,
         },
         {
-          path: "/contact", // Changed to use a hyphen
+          path: "/contact", 
           element: <Contact />,
         },
         {
-          path: "/portfolio", // Changed to use a hyphen
+          path: "/portfolio", 
           element: <Portfolio/>,
         },
         {
           path: "*",
-          element: <Error404 />,
+          element: <PageNotFound />,
         },
       ],
     },

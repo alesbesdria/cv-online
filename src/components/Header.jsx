@@ -29,8 +29,8 @@ const Header = () => {
   return (
     <header>
       <div className="title">
-        <h1>DYKHOUNPHYPHETH</h1>
-        <h2>Charles-Eric</h2>
+        <h1>MEIRSMAN</h1>
+        <h2>Mélissa</h2>
       </div>
       <nav>
         <menu>

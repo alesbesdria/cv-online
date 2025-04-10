@@ -30,6 +30,7 @@
 }
 .swiper-pagination {
 position: relative;
+align-items: center;
   text-align: center;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
@@ -37,4 +38,9 @@ position: relative;
 }
 .swiper-pagination-bullet {
   background-color: white;
+}
+
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
 }
