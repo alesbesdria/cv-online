@@ -9,7 +9,7 @@ export const Objets = [
     image: Image3,
     url: "#",
     description:
-      "-Formation CDA- Dernier Projet (en cours) CDA Frontend-Backend en React/Express. Un réseau social basé sur le thème Sciences et culture.",
+      "-Formation CDA- Dernier Projet (en cours) en React/Express. Un réseau social basé sur le thème Sciences et culture.",
   },
   {
     id: 2,
