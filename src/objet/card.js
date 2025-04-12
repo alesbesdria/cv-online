@@ -24,7 +24,7 @@ export const Objets = [
     image: Image3,
     url: "#",
     description:
-      "Dernier Projet CDA Frontend-Backend en React/Express. Un réseau social basé sur le thème Sciences et culture.",
+      "Dernier Projet (en cours) CDA Frontend-Backend en React/Express. Un réseau social basé sur le thème Sciences et culture.",
   },
   {
     id: 3,
