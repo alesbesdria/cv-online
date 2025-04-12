@@ -16,7 +16,7 @@ export const Objets = [
     titre: "Puzzen",
     image: Image2,
     url: "https://meirsman/melissa/",
-    description: "-Formation CDA- Hackaton 32h: Détendez-vous en jouant à ce jeu de recherche et de puzzle.",
+    description: "-Formation CDA- Deuxième projet Hackaton 32h: Détendez-vous en jouant à ce jeu de recherche et de puzzle.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const Objets = [
     image: Image1,
     url: "https://wildcodeschool.github.io/2024-12-orleans-cda-project2-team-b/",
     description:
-      "-Formation CDA- Projet de groupe API Où je me suis occupée principalement des fonctions et moins du choix de l'interface.",
+      "-Formation CDA- Premier projet de groupe API Où je me suis occupée principalement des fonctions et moins du choix de l'interface.",
   },
   {
     id: 4,
