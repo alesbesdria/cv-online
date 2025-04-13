@@ -7,7 +7,7 @@ export const Objets = [
     id: 1,
     titre: "Mingo",
     image: Image3,
-    url: "#",
+    url: "https://wildcodeschool.github.io/2024-12-orleans-cda-project3-team-c/",
     description:
       "-Formation CDA- Dernier Projet (en cours) en React/Express. Un réseau social basé sur le thème Sciences et culture.",
   },
@@ -15,7 +15,7 @@ export const Objets = [
     id: 2,
     titre: "Puzzen",
     image: Image2,
-    url: "https://meirsman/melissa/",
+    url: "https://melissa.meirsman.fr/hackathon",
     description: "-Formation CDA- Deuxième projet Hackaton 32h: Détendez-vous en jouant à ce jeu de recherche et de puzzle.",
   },
   {
@@ -30,7 +30,7 @@ export const Objets = [
     id: 4,
     titre: "Stéphanie Chantôme",
     image: Image4,
-    url: "https://meirsman/melissa/",
+    url: "https://melissa.meirsman.fr/sitebienetre",
     description:
       "-Formation DWWM- Premier projet réalisé en stage - Frontend-Backend en PHP. Site: Formations Bien-Être Stéphanie Chantôme.",
   },
