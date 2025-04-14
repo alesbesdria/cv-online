@@ -15,7 +15,7 @@ export const Objets = [
     id: 2,
     titre: "Puzzen",
     image: Image2,
-    url: "https://melissa.meirsman.fr/hackathon",
+    url: "https://alesbesdria.github.io/hackaton-puzzlegame/",
     description: "-Formation CDA- Deuxième projet Hackaton 32h: Détendez-vous en jouant à ce jeu de recherche et de puzzle.",
   },
   {
