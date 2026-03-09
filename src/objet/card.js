@@ -7,7 +7,7 @@ export const Objets = [
     id: 1,
     titre: "Mingo",
     image: Image3,
-    url: "https://wildcodeschool.github.io/2024-12-orleans-cda-project3-team-c/",
+    url: "https://mingo.wilders.dev/login",
     description:
       "-Formation CDA- Dernier Projet (en cours) en React/Express. Un réseau social basé sur le thème Sciences et culture.",
   },

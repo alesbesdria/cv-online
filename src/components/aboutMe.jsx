@@ -3,10 +3,9 @@ export default function AboutMe() {
     <>
       <h2>À propos de moi</h2>
       <div className="content">
-      <p>
-Je suis actuellement à la recherche d’un stage en développement informatique, qui me permette de découvrir de nouvelles technologies, d’approfondir mes compétences, et de m’épanouir dans un environnement dynamique et formateur. Je souhaite participer à des projets concrets, apprendre au contact de personnes passionnées, et continuer à évoluer autant sur le plan technique que personnel.
-</p>
 
+<p>
+Je suis actuellement à la recherche d’une alternance en tant que chef de projet / architecte logiciel, qui me permette de découvrir de nouvelles technologies, d’approfondir mes compétences et de m’épanouir dans un environnement dynamique et formateur. Je souhaite participer à des projets concrets, contribuer à la conception et à l’organisation de solutions logicielles, apprendre au contact de professionnels passionnés et continuer à évoluer autant sur le plan technique que personnel.</p>
 <p>
 Mon parcours professionnel a d’abord pris racine dans le commerce et l’événementiel, des domaines dans lesquels j’ai acquis des compétences solides en communication, en relation client et en organisation. Ces expériences m’ont appris à être réactive, à gérer les imprévus avec calme, diplomatie, et à toujours garder une approche centrée sur les solutions. Elles m’ont aussi permis de développer un véritable esprit d’équipe et une capacité d’écoute que je considère aujourd’hui comme une réelle force.
 </p>
