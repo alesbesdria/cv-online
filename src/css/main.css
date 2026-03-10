@@ -6,8 +6,8 @@ main {
   padding-bottom: 1%;
   color: white;
   .content {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
 /* .content{position: relative;} */
