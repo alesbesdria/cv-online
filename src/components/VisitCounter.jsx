@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { doc, getDoc, increment, setDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase";
+import '../css/visitcounter.css'
 
 function VisitCounter() {
   const [count, setCount] = useState(0);
