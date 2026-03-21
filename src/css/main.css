@@ -16,18 +16,48 @@ h2 {
   padding-top: 10px;
 }
 .status {
-  color: #f41ec2;
+  color: #9e60ee;
   position: relative;
 }
 .web {
   position: absolute;
-  margin-left: 5px;
-  animation: blink 5s ease-in-out forwards;
+  /* margin-left: px; */
+  /* animation: blink 5s ease-in-out forwards; */
+    animation: ecartClignote 5s ease-in-out infinite;
 }
-.web2 {
+/* .web2 {
   animation: opacityAnimation 2s linear 5s forwards;
-}
+} */
 
+    @keyframes ecartClignote {
+      0%, 100% {
+        transform: translateX(0px);
+        opacity: 1;
+        letter-spacing: 0;
+      }
+
+      25% {
+        transform: translateX(2px);
+        letter-spacing: 2px;
+        opacity: 1;
+      }
+
+      40% {
+        opacity: 0.35;
+      }
+
+      55% {
+        opacity: 1;
+      }
+
+      70% {
+        transform: translateX(0);
+        letter-spacing: 0;
+        opacity: 1;
+      }
+    }
+
+/* 
 @keyframes blink {
   0% {
     opacity: 1;
@@ -117,7 +147,7 @@ h2 {
     opacity: 1;
     transform: rotateZ(45deg) translateX(10px) translateY(10px);
   }
-}
+} */
 @keyframes opacityAnimation {
   0% {
     opacity: 1; /* À 0%, l'élément est complètement transparent */

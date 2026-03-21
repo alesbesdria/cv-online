@@ -7,41 +7,41 @@ import PHP from "../assets/php.png"
 import SQL from "../assets/sql.png"
 import JAVA from "../assets/java.png"
 import ANGULAR from "../assets/angular.png"
-
 import TYPESCRIPT from "../assets/typescript.png"
 import C from "../assets/c.png"
 import BOOTSTRAP from "../assets/bootstrap.png"
 import TAILWIND from "../assets/tailwind.png"
 import NODEJS from "../assets/nodejs.png"
 
-
-// Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import '../css/mySwiper.css';
 
-// import required modules
 import { Navigation } from 'swiper/modules';
 
 export default function MySwiper() {
   return (
-    <>
-     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><img src={HTML} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={CSS} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={JS} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={REACT} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={PHP} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={SQL} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={JAVA} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={ANGULAR} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={TYPESCRIPT} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={C} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={BOOTSTRAP} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={NODEJS} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={TAILWIND} alt="" /></SwiperSlide>
-        
-      </Swiper>
-    </>
+    <Swiper
+      navigation={true}
+      modules={[Navigation]}
+      slidesPerView="auto"
+      spaceBetween={10}
+      rewind={true}
+      className="mySwiper"
+    >
+      <SwiperSlide><img src={HTML} alt="HTML" /></SwiperSlide>
+      <SwiperSlide><img src={CSS} alt="CSS" /></SwiperSlide>
+      <SwiperSlide><img src={JS} alt="JavaScript" /></SwiperSlide>
+      <SwiperSlide><img src={REACT} alt="React" /></SwiperSlide>
+      <SwiperSlide><img src={PHP} alt="PHP" /></SwiperSlide>
+      <SwiperSlide><img src={SQL} alt="SQL" /></SwiperSlide>
+      <SwiperSlide><img src={JAVA} alt="Java" /></SwiperSlide>
+      <SwiperSlide><img src={ANGULAR} alt="Angular" /></SwiperSlide>
+      <SwiperSlide><img src={TYPESCRIPT} alt="TypeScript" /></SwiperSlide>
+      <SwiperSlide><img src={C} alt="C" /></SwiperSlide>
+      <SwiperSlide><img src={BOOTSTRAP} alt="Bootstrap" /></SwiperSlide>
+      <SwiperSlide><img src={NODEJS} alt="Node.js" /></SwiperSlide>
+      <SwiperSlide><img src={TAILWIND} alt="Tailwind" /></SwiperSlide>
+    </Swiper>
   );
 }

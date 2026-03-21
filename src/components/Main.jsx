@@ -4,7 +4,7 @@ import AboutMe from './aboutMe'
 export default function Main(){
     return(<>
     <div className='content'>
-        <h2 className='status'>Alternance Chef de projet - Architecture logiciel<span className='web'>w<span className='web2'>e</span>b</span></h2>
+        <h2 className='status'>Alternance Chef de projet - Architecture logic<span class="web">iel</span></h2>
         <Competences></Competences>
         <AboutMe></AboutMe>
    </div>
