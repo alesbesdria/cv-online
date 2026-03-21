@@ -35,7 +35,7 @@ function VisitCounter() {
     updateVisits();
   }, []);
 
-  return <div className="visit">👀 {count} visites</div>;
+  return <div className="visit">{count}</div>;
 }
 
 export default VisitCounter;
