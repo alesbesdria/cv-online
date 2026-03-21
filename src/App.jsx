@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 // import Footer from "./components/Contact";
 import BackgroundSlider from "./components/BackgroundSlider";
+import VisitCounter from "./components/VisitCounter"; // 👈 AJOUT
 import { Outlet } from "react-router-dom";
 
 function App() {
@@ -8,10 +9,9 @@ function App() {
     <>
       <Header />
       <main>
-      <BackgroundSlider />
+        <BackgroundSlider />
         <Outlet />
       </main>
-      
     </>
   );
 }
