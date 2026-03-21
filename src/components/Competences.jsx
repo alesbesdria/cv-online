@@ -5,7 +5,8 @@ export default function Competences(){
     <section>
         <h2>Compétences</h2>
         <MySwiper/>
-        <p className="outils">OUTILS : VSCode, Github, Figma, Draw.io, Trello, GitLab, PHPMyAdmin, Database Client, Postman, Docker, DBeaver, DbDiagram,...</p>
-    </section>
+<p className="outils">
+  OUTILS : VS Code, GitHub, GitLab, GitHub Projects, Figma, Draw.io, Trello, Jira, Postman, Docker, phpMyAdmin, DBeaver, DbDiagram
+</p>    </section>
     </>)
 }
