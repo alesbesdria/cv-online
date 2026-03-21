@@ -4,8 +4,9 @@ export default function Diplome() {
     <><section>
       <h2>FORMATIONS / DIPLOMES</h2>
       <div className="listDiplomes">
-        <p>2024 - 2025 : Formation de concepteur développeur d&apos;application, niveau 6 - Wild Code School, Orléans</p>
-        <p>2023 - 2024 : Formation développeur web et web mobile, niveau 5 - Via Formation, Orléans</p>
+        <p className="highlight">2026 : Recherche d'alternance Chef de projet - Architecte logiciel MAALSI (Master) - CESI, Orléans</p>
+        <p>2024 - 2025 : Formation de concepteur développeur d&apos;application, BAC +4 (licence) - Wild Code School, Orléans</p>
+        <p>2023 - 2024 : Formation développeur web et web mobile, BAC +2 - Via Formation, Orléans</p>
         
         <p>2015 - 2016 : École d&apos;ingénieur - École 42, Paris</p>
 

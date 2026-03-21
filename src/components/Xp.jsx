@@ -4,7 +4,9 @@ export default function Xp() {
     <><section>
       <h2>Expériences professionnelles</h2>
       <div className="listXp">
-        <p>2024 : Stagiaire développeur web - Stéphanie Chantôme, Orléans.</p>
+        <p>2025 : Stagiaire Conceptrice d'Applications - Stéphanie Chantôme, Orléans.</p>
+        <p>2024 : Stagiaire Développeur Web - Stéphanie Chantôme, Orléans.</p>
+        <p>2018 - 2023 : Interruption d’activité pour raisons de santé (situation aujourd’hui stabilisée).</p>        
         <p>2017 : Début de création d&apos;entreprise - Krystal.Art, Colmar.</p>
         <p>2016 : Vendeuse bijouterie - Julien d&apos;Orcel, Strasbourg.</p>
         <p>2014 : Responsable magasin - Temple d&apos;Or, Orléans. </p>
